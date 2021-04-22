@@ -28,6 +28,8 @@ const declaration
 Data Types
 
 12. 
-- A console.log(student.name);
-- B console.log(student['Grad Year']);
-- C 
+- A: console.log(student.name);
+- B: console.log(student['Grad Year']);
+- C: student.greeting();
+- D: console.log(student['Favorite Teacher'].name);
+- E: console.log(student.courseLoad[0]); 

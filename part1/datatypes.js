@@ -11,4 +11,5 @@ let student =
     },
     courseLoad: ['CSE 110', 'CSE 134', 'VIS 41']
 };
-console.log(student['Grad Year']);
+
+console.log(student.courseLoad[0]);
