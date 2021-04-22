@@ -35,6 +35,7 @@ Data Types
 - E: console.log(student.courseLoad[0]); 
 
 Basic Operators & Type Conversion
+
 13. Arithmetic
 - A: 32; Because the first 3 is with the '', so the compiler treat it as a string, and this will return the combination of the string.
 - B: 1; This time, system treat it as a number, so the result will return 3 - 2 which is 1.
