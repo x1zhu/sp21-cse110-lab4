@@ -24,7 +24,9 @@ const declaration
 10. This will output 3, we declare length as a const at the beginning, and its value is the length of the prices, so it will output 3.
 11. We declare this using const and set it as an empty list, so the output will give us an empty list as well.
 
+
 Data Types
+
 12. 
 
 A: console.log(student.name);
