@@ -39,7 +39,7 @@ Basic Operators & Type Conversion
 13. Arithmetic
 - A: 32; Because the first 3 is with the '', so the compiler treat it as a string, and this will return the combination of the string.
 - B: 1; This time, system treat it as a number, so the result will return 3 - 2 which is 1.
-- C: 3； Null here will be treated as 0, so the result will return the value of 3 + 0.
+- C: 3; Null here will be treated as 0, so the result will return the value of 3 + 0.
 - D: 3null; Here, both 3 and null will be treated as string, and after we add them together, we will get 3null.
 - E: 4; True here will be treated as '1', so the result will return their sum.
 - F: 0; Both of them will be treated as integer 0, so the sum of two 0 will still be 0.
@@ -54,4 +54,8 @@ Basic Operators & Type Conversion
 - E: false; True will be assign to 1 here, so they are different, thus retuern false.
 - F: true; Bollean(2) will return true, thus they have the same type, so it will return true.
 
-15. 
+15. === is the strict comparison, == is the normal one, difference between them is === will also compare the type, == won't compare the type. For example, '2' and 2, if we use ==, it will return true because in this case == will ignore the type. But if we use ===, then it will return false, because they have the difference type, string and int.
+
+Loops
+
+16. See part1b-question16.js file
