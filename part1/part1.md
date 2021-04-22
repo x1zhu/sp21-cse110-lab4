@@ -33,3 +33,24 @@ Data Types
 - C: student.greeting();
 - D: console.log(student['Favorite Teacher'].name);
 - E: console.log(student.courseLoad[0]); 
+
+Basic Operators & Type Conversion
+13. Arithmetic
+- A: 32; Because the first 3 is with the '', so the compiler treat it as a string, and this will return the combination of the string.
+- B: 1; This time, system treat it as a number, so the result will return 3 - 2 which is 1.
+- C: 3； Null here will be treated as 0, so the result will return the value of 3 + 0.
+- D: 3null; Here, both 3 and null will be treated as string, and after we add them together, we will get 3null.
+- E: 4; True here will be treated as '1', so the result will return their sum.
+- F: 0; Both of them will be treated as integer 0, so the sum of two 0 will still be 0.
+- G: 3undefined; Both of them here will be treated as string, so the result will return the combination of stirng.
+- H: NaN; Two different types cannot substract each other, so the result will return 'not a number'.
+
+14. Comparison
+- A: true; Here '2' will be treat as a number 2, and 2 is obviously greater than 1, thus will return true.
+- B: false; Dictionary comparison, first char 2 is greater than 1, so will return false.
+- C: true; Here I think both of them will be treated as number, then they are equal to each other.
+- D: false; Because we are using strict comparison here, they don't have the same type, thus will return false.
+- E: false; True will be assign to 1 here, so they are different, thus retuern false.
+- F: true; Bollean(2) will return true, thus they have the same type, so it will return true.
+
+15. 
