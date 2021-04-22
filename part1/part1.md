@@ -25,3 +25,6 @@ const declaration
 11. We declare this using const and set it as an empty list, so the output will give us an empty list as well.
 
 Data Types
+12. 
+A: console.log(student.name);
+B: 
