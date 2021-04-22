@@ -59,3 +59,7 @@ Basic Operators & Type Conversion
 Loops
 
 16. See part1b-question16.js file
+
+Functions
+
+17. 
