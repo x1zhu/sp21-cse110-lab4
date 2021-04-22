@@ -26,6 +26,7 @@ const declaration
 
 
 Data Types
+
 12. 
 - A: console.log(student.name);
 - B: console.log(student['Grad Year']);
