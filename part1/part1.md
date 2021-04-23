@@ -62,4 +62,6 @@ Loops
 
 Functions
 
-17. 
+17.  The output will result [2, 4, 6], our original list is [1, 2, 3], and we also passing in a function as our parameter, as you notice that, this function is multiple our original number by 2, thus our final output should be [2, 4, 6].
+
+18. See part1b-question18.js file

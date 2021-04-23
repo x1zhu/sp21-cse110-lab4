@@ -1,6 +1,6 @@
 function modifyArray(array, callback)
 {
-    const newArr = [];
+    let newArr = [];
     for(let i = 0; i < array.length; i++)
     {
         newArr.push(callback(array[i]));
@@ -13,4 +13,4 @@ function doSomething(num)
     return num * 2;
 }
 
-modifyArray([1,2,3], doSomething);
+console.log(modifyArray([1,2,3], doSomething));
