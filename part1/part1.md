@@ -65,3 +65,5 @@ Functions
 17.  The output will result [2, 4, 6], our original list is [1, 2, 3], and we also passing in a function as our parameter, as you notice that, this function is multiple our original number by 2, thus our final output should be [2, 4, 6].
 
 18. See part1b-question18.js file
+
+19. The output is 1 4 3 2. Because 1 2 don't have timeout, so it will be printed directly, but 4 3 come with timeout, and 2 with 1000 is greater than 3 with 0, so will print 3 first then print 2. Thus, the final output will be 1 4 3 2.
